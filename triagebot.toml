@@ -10,3 +10,8 @@ message = """\
 This is just testing some functionality, please ignore this ping.
 """
 label = "help wanted"
+
+
+[mentions."compiler/rustc_trait_selection/src/solve/]
+message = "Some changes occurred to the core trait solver"
+cc = ["@lcnr"]
